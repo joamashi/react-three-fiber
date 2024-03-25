@@ -1,0 +1,57 @@
+{
+  "name": "react-three-fiber",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@pmndrs/assets": "1.6.0",
+    "@pmndrs/branding": "0.0.8",
+    "@react-three/drei": "9.96.0",
+    "@react-three/fiber": "^8.15.14",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/three": "0.154.0",
+    "primereact": "^10.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "sass": "^1.72.0",
+    "styled-components": "^6.1.8",
+    "three": "^0.160.1",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start --host --port 8111",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
